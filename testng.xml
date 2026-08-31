@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Dream Portal Test Suite" parallel="false">
+    <test name="Dream Portal UI Tests">
+        <classes>
+            <class name="tests.HomePageTest"/>
+            <class name="tests.DreamsDiaryTest"/>
+            <class name="tests.DreamsTotalTest"/>
+        </classes>
+    </test>
+    <!-- Bonus AI test - only runs meaningfully if OPENAI_API_KEY is set, otherwise it self-skips -->
+    <test name="Bonus AI Validation">
+        <classes>
+            <class name="tests.AIValidationTest"/>
+        </classes>
+    </test>
+</suite>

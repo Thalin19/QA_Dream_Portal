@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="9" passed="8" failed="0" skipped="1">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-09-01T00:29:28 AEST" name="Dream Portal Test Suite" finished-at="2026-09-01T00:30:02 AEST" duration-ms="33699">
+    <groups>
+    </groups>
+    <test started-at="2026-09-01T00:29:28 AEST" name="Dream Portal UI Tests" finished-at="2026-09-01T00:30:00 AEST" duration-ms="32350">
+      <class name="tests.DreamsDiaryTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.DreamsDiaryTest@3967e60c]" started-at="2026-09-01T00:29:49 AEST" name="setUp" finished-at="2026-09-01T00:29:50 AEST" duration-ms="1057" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testDreamTypesAreOnlyGoodOrBad()[pri:0, instance:tests.DreamsDiaryTest@3967e60c]" started-at="2026-09-01T00:29:50 AEST" name="testDreamTypesAreOnlyGoodOrBad" description="Every dream&#039;s type should be either &#039;Good&#039; or &#039;Bad&#039;, nothing else" finished-at="2026-09-01T00:29:51 AEST" duration-ms="907" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDreamTypesAreOnlyGoodOrBad -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.DreamsDiaryTest@3967e60c]" started-at="2026-09-01T00:29:51 AEST" name="tearDown" finished-at="2026-09-01T00:29:52 AEST" duration-ms="351" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testDreamTypesAreOnlyGoodOrBad status=SUCCESS method=DreamsDiaryTest.testDreamTypesAreOnlyGoodOrBad()[pri:0, instance:tests.DreamsDiaryTest@3967e60c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.DreamsDiaryTest@3967e60c]" started-at="2026-09-01T00:29:52 AEST" name="setUp" finished-at="2026-09-01T00:29:53 AEST" duration-ms="1353" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testEveryRowHasAllColumnsFilled()[pri:0, instance:tests.DreamsDiaryTest@3967e60c]" started-at="2026-09-01T00:29:53 AEST" name="testEveryRowHasAllColumnsFilled" description="Every row should have all 3 columns filled in (non-empty)" finished-at="2026-09-01T00:29:54 AEST" duration-ms="1313" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testEveryRowHasAllColumnsFilled -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.DreamsDiaryTest@3967e60c]" started-at="2026-09-01T00:29:54 AEST" name="tearDown" finished-at="2026-09-01T00:29:55 AEST" duration-ms="313" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testEveryRowHasAllColumnsFilled status=SUCCESS method=DreamsDiaryTest.testEveryRowHasAllColumnsFilled()[pri:0, instance:tests.DreamsDiaryTest@3967e60c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.DreamsDiaryTest@3967e60c]" started-at="2026-09-01T00:29:55 AEST" name="setUp" finished-at="2026-09-01T00:29:56 AEST" duration-ms="1336" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testExactlyTenDreamEntries()[pri:0, instance:tests.DreamsDiaryTest@3967e60c]" started-at="2026-09-01T00:29:56 AEST" name="testExactlyTenDreamEntries" description="Diary table should have exactly 10 dream entries" finished-at="2026-09-01T00:29:56 AEST" duration-ms="176" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testExactlyTenDreamEntries -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.DreamsDiaryTest@3967e60c]" started-at="2026-09-01T00:29:56 AEST" name="tearDown" finished-at="2026-09-01T00:29:56 AEST" duration-ms="204" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testExactlyTenDreamEntries status=SUCCESS method=DreamsDiaryTest.testExactlyTenDreamEntries()[pri:0, instance:tests.DreamsDiaryTest@3967e60c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.DreamsDiaryTest -->
+      <class name="tests.HomePageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.HomePageTest@18ce0030]" started-at="2026-09-01T00:29:28 AEST" name="setUp" finished-at="2026-09-01T00:29:33 AEST" duration-ms="5288" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testLoadingAnimationAppearsAndDisappears()[pri:0, instance:tests.HomePageTest@18ce0030]" started-at="2026-09-01T00:29:33 AEST" name="testLoadingAnimationAppearsAndDisappears" description="Loading animation should be visible immediately, then disappear" finished-at="2026-09-01T00:29:38 AEST" duration-ms="4235" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoadingAnimationAppearsAndDisappears -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.HomePageTest@18ce0030]" started-at="2026-09-01T00:29:38 AEST" name="tearDown" finished-at="2026-09-01T00:29:38 AEST" duration-ms="414" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testLoadingAnimationAppearsAndDisappears status=SUCCESS method=HomePageTest.testLoadingAnimationAppearsAndDisappears()[pri:0, instance:tests.HomePageTest@18ce0030] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.HomePageTest@18ce0030]" started-at="2026-09-01T00:29:38 AEST" name="setUp" finished-at="2026-09-01T00:29:40 AEST" duration-ms="1605" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testMainContentAndButtonBecomeVisible()[pri:0, instance:tests.HomePageTest@18ce0030]" started-at="2026-09-01T00:29:40 AEST" name="testMainContentAndButtonBecomeVisible" description="Main content and My Dreams button should become visible after loading" finished-at="2026-09-01T00:29:43 AEST" duration-ms="3783" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMainContentAndButtonBecomeVisible -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.HomePageTest@18ce0030]" started-at="2026-09-01T00:29:43 AEST" name="tearDown" finished-at="2026-09-01T00:29:44 AEST" duration-ms="458" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testMainContentAndButtonBecomeVisible status=SUCCESS method=HomePageTest.testMainContentAndButtonBecomeVisible()[pri:0, instance:tests.HomePageTest@18ce0030] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.HomePageTest@18ce0030]" started-at="2026-09-01T00:29:44 AEST" name="setUp" finished-at="2026-09-01T00:29:45 AEST" duration-ms="1084" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testMyDreamsButtonOpensTwoNewTabs()[pri:0, instance:tests.HomePageTest@18ce0030]" started-at="2026-09-01T00:29:45 AEST" name="testMyDreamsButtonOpensTwoNewTabs" description="Clicking &#039;My Dreams&#039; should open dreams-diary.html and dreams-total.html in new tabs" finished-at="2026-09-01T00:29:49 AEST" duration-ms="4108" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMyDreamsButtonOpensTwoNewTabs -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.HomePageTest@18ce0030]" started-at="2026-09-01T00:29:49 AEST" name="tearDown" finished-at="2026-09-01T00:29:49 AEST" duration-ms="296" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testMyDreamsButtonOpensTwoNewTabs status=SUCCESS method=HomePageTest.testMyDreamsButtonOpensTwoNewTabs()[pri:0, instance:tests.HomePageTest@18ce0030] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.HomePageTest -->
+      <class name="tests.DreamsTotalTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.DreamsTotalTest@60d8c9b7]" started-at="2026-09-01T00:29:56 AEST" name="setUp" finished-at="2026-09-01T00:29:57 AEST" duration-ms="1011" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testRecurringDreamsMatchDiaryData()[pri:0, instance:tests.DreamsTotalTest@60d8c9b7]" started-at="2026-09-01T00:29:57 AEST" name="testRecurringDreamsMatchDiaryData" description="&#039;Flying over mountains&#039; and &#039;Lost in maze&#039; should be the recurring dreams, verified by cross-checking the diary page&#039;s actual dream names" finished-at="2026-09-01T00:29:58 AEST" duration-ms="1059" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRecurringDreamsMatchDiaryData -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.DreamsTotalTest@60d8c9b7]" started-at="2026-09-01T00:29:58 AEST" name="tearDown" finished-at="2026-09-01T00:29:59 AEST" duration-ms="319" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testRecurringDreamsMatchDiaryData status=SUCCESS method=DreamsTotalTest.testRecurringDreamsMatchDiaryData()[pri:0, instance:tests.DreamsTotalTest@60d8c9b7] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.DreamsTotalTest@60d8c9b7]" started-at="2026-09-01T00:29:59 AEST" name="setUp" finished-at="2026-09-01T00:30:00 AEST" duration-ms="973" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testSummaryStatsAreCorrect()[pri:0, instance:tests.DreamsTotalTest@60d8c9b7]" started-at="2026-09-01T00:30:00 AEST" name="testSummaryStatsAreCorrect" description="Summary stats (Good/Bad/Total/Recurring) should match expected values" finished-at="2026-09-01T00:30:00 AEST" duration-ms="334" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSummaryStatsAreCorrect -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.DreamsTotalTest@60d8c9b7]" started-at="2026-09-01T00:30:00 AEST" name="tearDown" finished-at="2026-09-01T00:30:00 AEST" duration-ms="226" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testSummaryStatsAreCorrect status=SUCCESS method=DreamsTotalTest.testSummaryStatsAreCorrect()[pri:0, instance:tests.DreamsTotalTest@60d8c9b7] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.DreamsTotalTest -->
+    </test> <!-- Dream Portal UI Tests -->
+    <test started-at="2026-09-01T00:30:00 AEST" name="Bonus AI Validation" finished-at="2026-09-01T00:30:02 AEST" duration-ms="1325">
+      <class name="tests.AIValidationTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.AIValidationTest@29626d54]" started-at="2026-09-01T00:30:00 AEST" name="setUp" finished-at="2026-09-01T00:30:01 AEST" duration-ms="983" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testAIClassificationMatchesTable()[pri:0, instance:tests.AIValidationTest@29626d54]" started-at="2026-09-01T00:30:01 AEST" name="testAIClassificationMatchesTable" description="AI classification of each dream name should agree with the table&#039;s Dream Type" finished-at="2026-09-01T00:30:01 AEST" duration-ms="0" status="SKIP">
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[OPENAI_API_KEY environment variable not set - skipping AI bonus test]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: OPENAI_API_KEY environment variable not set - skipping AI bonus test
+at tests.AIValidationTest.testAIClassificationMatchesTable(AIValidationTest.java:37)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAIClassificationMatchesTable -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.AIValidationTest@29626d54]" started-at="2026-09-01T00:30:01 AEST" name="tearDown" finished-at="2026-09-01T00:30:02 AEST" duration-ms="339" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testAIClassificationMatchesTable status=SKIP method=AIValidationTest.testAIClassificationMatchesTable()[pri:0, instance:tests.AIValidationTest@29626d54] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.AIValidationTest -->
+    </test> <!-- Bonus AI Validation -->
+  </suite> <!-- Dream Portal Test Suite -->
+</testng-results>

@@ -1,0 +1,6 @@
+target/*
+!target/surefire-reports/
+!target/test-classes/
+.idea/
+*.iml
+*.class
